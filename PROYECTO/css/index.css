@@ -1,0 +1,60 @@
+/* Imagen principal */
+.inicio {
+  --opacidad-negro: 0.5;
+  background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../IMG/DreamShaper_v7_ropa_de_hombre_casual_con_varios_estilos_0-_1_.webp");
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+}
+
+/* Tamaño del color del Logo */
+.navbar-brand {
+  font-size: 1.3rem;
+  color: lavender;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: lavender;
+}
+
+/* Color del fondo del Navbar */
+.navbar {
+  background-color: #696969;
+}
+
+/* Características de los Nav-item */
+.nav-item {
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+/* Color de fondo de las tarjetas */
+.card {
+  background-color: #24201860;
+}
+
+/* Texto de las tarjetas */
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 10;
+  text-align: center;
+}
+.card
+
+
+.politicas {
+  background-color: #edcfa4;
+  text-align: center;
+}
+
+/* Estilo específico para las tarjetas */
+.card {
+  .card-title{
+    font-size: medium;
+  }
+  width: 18rem;
+  font-size: 15px; /* Added "rem" unit */
+  color: rgb(19, 10, 10);
+}
